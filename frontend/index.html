@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeuroGuard AI</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>NeuroGuard AI</h1>
+    <p>Predictive Cognitive Health Monitoring using Sleep EEG</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Upload EEG CSV</h2>
+      <input type="file" id="fileInput" accept=".csv" />
+      <button id="predictBtn">Predict Risk</button>
+      <p id="status"></p>
+    </section>
+
+    <section class="card" id="resultCard" hidden>
+      <h2>Prediction Result</h2>
+      <p><strong>Risk Score:</strong> <span id="riskScore"></span></p>
+      <p><strong>Risk Level:</strong> <span id="riskLevel"></span></p>
+    </section>
+
+    <section class="card" id="explainCard" hidden>
+      <h2>Explainability (SHAP-style)</h2>
+      <ul id="explanations"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 NeuroGuard AI • For research/demo use only</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
