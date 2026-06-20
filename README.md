@@ -86,18 +86,12 @@ Then open `http://127.0.0.1:5500`.
 - `explanations` (feature contribution summary)
 
 ## 📸 Screenshots
-Add your screenshots in `docs/screenshots/`:
+The screenshots below are generated demo assets included for presentation use.
 
-- `home.png`
-- `upload.png`
-- `result.png`
-- `dashboard.png`
-
-Replace these placeholders with real images in the repository, for example:
-
-```md
 ![Home](docs/screenshots/home.png)
-```
+![Upload](docs/screenshots/upload.png)
+![Result](docs/screenshots/result.png)
+![Dashboard](docs/screenshots/dashboard.png)
 
 ## 🌍 Theme Alignment
 - **Sustainability:** early screening reduces long-term care burden
