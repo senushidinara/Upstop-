@@ -1,4 +1,4 @@
-const API_BASE = "http://127.0.0.1:8000"; // change to deployed backend URL later
+const API_BASE = window.API_BASE || "http://127.0.0.1:8000"; // override via window.API_BASE in production
 
 const fileInput = document.getElementById("fileInput");
 const predictBtn = document.getElementById("predictBtn");
