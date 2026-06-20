@@ -93,7 +93,8 @@ Add your screenshots in `docs/screenshots/`:
 - `result.png`
 - `dashboard.png`
 
-Example markdown:
+Replace these placeholders with real images in the repository, for example:
+
 ```md
 ![Home](docs/screenshots/home.png)
 ```
